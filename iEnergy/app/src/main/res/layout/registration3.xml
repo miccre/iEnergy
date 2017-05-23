@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/relative_layout">
+
+    <com.shawnlin.numberpicker.NumberPicker
+
+        android:id="@+id/number_picker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:np_width="64dp"
+        app:np_height="180dp"
+        app:np_dividerColor="@color/colorPrimary"
+        app:np_formatter="heeej"
+        app:np_textColor="@color/colorPrimary"
+        app:np_textSize="24dp"
+        app:np_typeface=""/>
+
+    <com.spark.submitbutton.SubmitButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Potvrd"
+        android:id="@+id/submit3"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="1000"
+        app:sub_btn_line_color="@color/colorPrimary"
+        app:sub_btn_ripple_color="@color/colorPrimary"
+        app:sub_btn_tick_color="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+    <TextView
+        android:text="Aky mate typ programu?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="Arial"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="56dp" />
+
+</RelativeLayout>

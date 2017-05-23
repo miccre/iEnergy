@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">iEnergy</string>
+    <string name="string_menu">Menu</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="nav_tournament">Tournament</string>
+    <string name="skip">Preskoč</string>
+
+    <!--String for faktura.java -->
+    <string name="vyrovnanie">Rozdiel medzi cenou vami spotrebovanej elektriny a platbami,
+        ktoré ste zaplatili. Možeme mať buď preplatok(peniaze nám budú vrátené), alebo
+        nedoplatok(musíme doplatiť rozdiel).</string>
+    <string name="spotreba">Celková spotreba za dané fakturačné obdobie s porovnaním za predchádzajúce
+        fakturačné obodbie.</string>
+    <string name="harmonogram">Zobrazuje, koľko budeme platiť pravidelne za elektrinu
+        v nasledujúcom období. Výška platieb je stanovená podľa spotreby v predchádzajúcom období.</string>
+    <string name="udaje">Údaje zákazníka. Zákaznické číslo, adresa, fakturačné obdobie.</string>
+    <string name="reklama">Kontaktné telefónne čísla, reklama.</string>
+    <string name="dph">Detailné zobrazenie vyučtovacej platby pre DPH. Údaje o zaplatenej sume a sume,
+        za spotrebovanú elektrinu.</string>
+    <string name="hodnoty">Rozpis jednotlivých nameraných hodnôt v NT(nízkej tarife) a VT(vysokej tarife)
+        za jednotlivé obdobia.</string>
+    <string name="ceny">Rozpis jednotlivých cien za spotrebovanú elektrinu v NT(nízkej tarife) a VT(vysokej tarife),
+        mesačná platba za odberné miesto a spotrebná daň.</string>
+    <string name="distribucia">Fixné platby za distribúciu elektriny, ktoré su zobrazené na grafe.</string>
+    <string name="platby">Rozpis jednotlivých platieb každý mesiac.</string>
+
+    <!--String for PieChartActivity -->
+    <string name="odberne_miesto">Mesačná platba za odberné miesto, alebo za istič
+        (€/mesiac), alebo za rezervovanú kapacitu (rezervovaný výkon) odzrkadľuje
+        stále náklady prevádzkovateľa distribučnej sústavy, spojené so zabezpečením
+        požadovanej disponibilnej rezervovanej kapacity v distribučnej sústave pre
+        odberateľa elektriny. Tieto náklady sa vzťahujú na technickú jednotku (kW),
+        resp. na ampérickú hodnotu hlavného ističa pred elektromerom.</string>
+    <string name="prevadzka">Náklady na podporu ťažby  domáceho uhlia, výroby elektriny z
+        domáceho uhlia, výroby elektriny z obnoviteľných zdrojov energie (OZE) a vysoko
+        účinnej kombinovanej výroby elektriny a tepla a náklady organizátora krátkodobého
+        trhu s elektrinou. Najväčší podiel na položke výroby elektriny z obnoviteľných
+        zdrojov má fotovoltaika,</string>
+    <string name="straty">Náklady súvisiace s nákupom elektriny pre krytie strát, ktoré fyzikálne
+        vznikajú pri distribúcii požadovaného množstva elektriny pre koncového odberateľa na
+        jednotlivých napäťových úrovniach.</string>
+    <string name="sluzby">Náklady spojené s reguláciou elektrizačnej sústavy, ktoré je potrebné vynaložiť
+        na udržanie jej stability a spoľahlivosti.</string>
+    <string name="zlozka_tarify">Cena za distribúciu a prenos (€/kWh), alebo (€/MWh),
+        závisí od skutočnej spotreby elektriny na odbernom mieste koncového odberateľa.
+        Je vyjadrením miery použitia distribučnej sústavy pre distribúciu elektriny a
+        meraná elektromerom (kWh).</string>
+    <string name="fond">Odvod, ktorý je vyberaný prevádzkovateľom prenosovej sústavy a
+        prevádzkovateľom distribučnej sústavy, určený na úhradu dlhu, ktorý vznikol pri
+        tvorbe zdrojov určených na krytie nákladov jadrovej energetiky, vytváraných počas
+        doterajšej prevádzky jadrových zariadení na účely výroby elektriny, na vyraďovanie
+        jadrových zariadení a na nakladanie s vyhoretým jadrovým palivom a rádioaktívnymi
+        odpadmi.</string>
+
+    <string name="my_text">This is an <u>underline</u>.</string>
+
+    <!-- Rady k setreniu -->
+    <string name="VTpracka">Snažte sa púšťať práčku v čase kedy mate aktivovanú nízku tarifu. Vačšinou je to v noci
+        a par hodín cez deň. Práčka spotrebuje veľké množstvo energie preto by mala byť pustená v čase, keď za elektrinu platíte menej.</string>
+
+    <string name="VTzateplenie">Dobrá izolácia vonkajších stien, podkrovia a pivnice môže ušetriť viac ako polovicu nákladov na kúrenie.
+        \n\nInštaláciou kvalitných okien môžete znížiť tepelné straty až o 70%!</string>
+    <string name="VTenergiazoslnka">Solárne zariadenia dokážu pokryť až polovicu našej spotreby. \n\nAk máte vysokź spotrebu najmä na ohrev teplej vody
+        a elektrickej energie, pouvažujte nad týmto riešením. Teplé slnečné dni sa dajú využiť aj takýmto spôsobom.</string>
+    <string name="VTpecenie">V prípade, že často pečiete, snažte sa to robiť v čase keď máte aktivovanú nízku tarifu. Budete piecť za oveľa lacnejšie.</string>
+
+
+</resources>

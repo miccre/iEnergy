@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Klikni na položku pre zobrazenie vysvetlivky!!"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="458dp"
+            android:id="@+id/faktura"
+            android:src="@drawable/faktura1"
+            android:layout_weight="0.03" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/faktura2"
+            android:src="@drawable/faktura3"
+            android:layout_weight="0.05" />
+        tools:context="dev.edmt.photoviewdemo.MainActivity">
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Byt</item>
+        <item>Bungalov</item>
+        <item>Dvojdom</item>
+    </string-array>
+    <string-array name="programsItems">
+        <item>Program 59</item>
+        <item>Program 57</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+</resources>

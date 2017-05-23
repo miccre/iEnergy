@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.myinnos.customimagetablayout.ChangeColorTab
+        android:id="@+id/tabChangeColorTab"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            tab:item_icon="@drawable/ic_assessment_black_24dp"
+            tab:item_icon_color="@color/black"
+            tab:item_tab_color="@color/black"
+            tab:item_tab_position="top"
+            tab:item_text="Spotrebiče"
+            tab:item_text_color="@color/black"
+            tab:item_text_size="12sp" />
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            tab:item_icon="@drawable/ic_attach_money_black_24dp"
+            tab:item_tab_color="@color/black"
+            tab:item_icon_color="@color/black"
+            tab:item_tab_position="top"
+            tab:item_text="Zateplenie"
+            tab:item_text_color="@color/black"
+            tab:item_text_size="12sp" />
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            tab:item_icon="@drawable/ic_view_carousel_black_24dp"
+            tab:item_tab_color="@color/black"
+            tab:item_icon_color="@color/black"
+            tab:item_tab_position="top"
+            tab:item_text="Fotovoltaika"
+            tab:item_text_color="@color/black"
+            tab:item_text_size="12sp" />
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            tab:item_icon="@drawable/ic_swap_horiz_black_24dp"
+            tab:item_tab_color="@color/black"
+            tab:item_icon_color="@color/black"
+            tab:item_tab_position="top"
+            tab:item_text="Sporák"
+            tab:item_text_color="@color/black"
+            tab:item_text_size="12dp" />
+
+    </in.myinnos.customimagetablayout.ChangeColorTab>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabChangeColorTab" />
+
+</RelativeLayout>

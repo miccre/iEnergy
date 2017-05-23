@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="30dp"
+    android:background="@color/classicWhite"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:background="@drawable/energia" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_account_circle_black_24dp"
+        android:hint="Prihlasovacie meno:"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+        android:hint="Heslo:"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttoncorner"
+        android:text="Prihlásenie"
+        android:textAllCaps="false"
+        android:textColor="@color/classicWhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/register2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Registrácia"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

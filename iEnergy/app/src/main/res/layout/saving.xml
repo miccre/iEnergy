@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.eralp.circleprogressview.CircleProgressView
+        android:id="@+id/circle_progress_view"
+        android:layout_width="120dp"
+        android:layout_weight="120"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cpv_circle_color="#27375c"
+        app:cpv_circle_width="6dp"
+        app:cpv_background_circle_width="1dp"
+        app:cpv_background_circle_color="#5b253048"
+        app:cpv_text_prefix="%"
+        app:cpv_text_size="40"
+        app:cpv_text_color="#27375c"
+        android:layout_marginTop="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

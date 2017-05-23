@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/listView2"
+
+        />
+    <include
+        android:visibility="invisible"
+        android:id="@+id/reg1"
+        layout="@layout/registration"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         />
+    <include
+        android:visibility="invisible"
+        android:id="@+id/reg2"
+        layout="@layout/registration2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+</FrameLayout>

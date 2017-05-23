@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_face_black_24dp"
+        android:hint="Meno:"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etSurname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+        android:hint="Priezvisko:"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <TextView
+        android:text="Typ domu:"
+        android:id="@+id/house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:entries="@array/spinnerItems"
+        android:layout_height="40dp"
+        android:id="@+id/sHouse" />
+
+    <EditText
+        android:id="@+id/etTotal_area"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_settings_overscan_black_24dp"
+        android:hint="Rozloha domu:"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <TextView
+        android:text="Distributor:"
+        android:id="@+id/program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:entries="@array/programsItems"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sProgram" />
+
+    <TextView
+        android:text="Tarifa:"
+        android:id="@+id/tariff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sTariff" />
+    <EditText
+        android:id="@+id/etNT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_settings_overscan_black_24dp"
+        android:hint="Spotreba v NT(kWh):"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/etVT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_settings_overscan_black_24dp"
+        android:hint="Spotreba v VT(kWh):"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/etPayment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/classicBlack"
+        android:drawableStart="@drawable/ic_euro_symbol_black_24dp"
+        android:hint="Platba za elektrinu:"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <Button
+        android:text="Upravit"
+        android:id="@+id/register"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/classicWhite"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/buttoncorner"/>
+</LinearLayout>

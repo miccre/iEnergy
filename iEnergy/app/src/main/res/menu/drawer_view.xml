@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ukazGraf"
+            android:title="Distribúcia"
+            android:icon="@drawable/ic_assessment_white_24dp"/>
+        <item
+            android:id="@+id/Setrenie"
+            android:title="Šetrenie"
+            android:icon="@drawable/ic_euro_symbol_white_24dp"/>
+        <item
+            android:id="@+id/polozkyFaktury"
+            android:title="Položky faktúry"
+            android:icon="@drawable/ic_description_white_24dp"/>
+        <item
+            android:id="@+id/saving"
+            android:title="Odporúčanie"
+            android:icon="@drawable/ic_swap_horiz_white_24dp"/>
+
+
+        <item
+            android:id="@+id/info"
+            android:title="Moje údaje"
+            android:icon="@drawable/ic_info_white_24dp"/>
+
+
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title=""/>
+            </group>
+        </menu>
+    </item>
+
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/onas"
+            android:title=""/>
+    <item
+        android:id="@+id/logout"
+        android:title="Odhlásiť sa"
+        android:icon="@drawable/ic_power_settings_new_white_24dp"/>
+
+    </group>
+</menu>
